@@ -1,4 +1,79 @@
-.project-info {
-  margin-top: 10%;
-  text-align: center;
+
+.app-container {
+    width: min(90%, 700px);
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.app-header h1 {
+    color: #4338ca;
+}
+
+.info-card,
+.auth-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.info-card h2,
+.auth-card h2 {
+    margin-top: 0;
+}
+
+.auth-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.auth-card label {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.auth-card input {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.auth-card input:focus {
+    outline: 2px solid #6366f1;
+    border-color: transparent;
+}
+
+.auth-card button {
+    margin-top: 14px;
+    padding: 12px;
+    background: #4338ca;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-card button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.success-message {
+    color: #15803d;
+    font-weight: 600;
+}
+
+.error-message {
+    color: #b91c1c;
 }
